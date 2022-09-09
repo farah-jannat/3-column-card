@@ -11,16 +11,22 @@
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
 }
-section{
-    display: flex;
-    justify-content: center;
+.project{
+    /* display: flex;
     align-items: center;
+    justify-content: center; */
+    position: relative;
 }
 .all-box{
     width: 60%;
     /* height: 50%; */
     /* border: 2px solid black; */
     display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,30%);
+    
     
 }
 .box{
@@ -34,7 +40,8 @@ section{
 }
 .box .header{
     text-transform: uppercase;
-    font-size: 23px;
+    font-size: 25px;
+    font-weight: 300px;
 }
 .box p{
     text-transform: capitalize;
