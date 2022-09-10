@@ -91,3 +91,85 @@
     background-color: var(--3rd-color);
     color: #fff;
 }
+
+
+
+
+/* media quary */
+@media only screen and (max-width: 200px) {
+   .all-box{
+    display: flex;
+    flex-direction: column;
+
+   } 
+   .box{
+    width: 100%;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #fff;
+    
+    
+
+   }
+    .box .header{
+    text-transform: uppercase;
+    font-size: 12px;
+    
+}
+.box p{
+    text-transform:none;
+    font-size: 8px;
+    line-height: 12px;
+    
+    /* text-align: left; */
+    
+}
+.box .part-1{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+
+}
+.box .part-2{
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+
+}
+.box .part-2 button{
+    font-size: 10px;
+    white-space: nowrap;
+    padding: 3px 13px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 50px;
+    text-transform: capitalize; 
+    cursor: pointer;
+    
+    
+    
+}
+.box img{
+    width: 35px;
+}
+.box-1 button {
+    color: var(--first-color);
+    
+}
+.box-2 button {
+    color: var(--2nd-color);
+    
+}
+.box-3 button {
+    color: var(--3rd-color);
+    
+}
+
+
+
+
+
+
+}
